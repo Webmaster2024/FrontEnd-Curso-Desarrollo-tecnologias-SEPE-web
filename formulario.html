@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>formulario</title>
+		<meta charset="UTF-8">
+	</head>
+	
+	<body>
+		<!-- Formulario -->
+		<h1>Contacta con nosotros</h1>
+		<fieldset>
+			<legend><u>CONTACTA CON NOSOTROS</u></legend>
+				<form action="foo.php" method="get">
+					<p>
+					<label>Nombre *</label>
+					<input type="text" name="nombre">
+					</p>
+					<p>
+					<label>Apellidos *</label>
+					<input type="text" name="apellidos">
+					</p>
+					<p>
+					Sexo: <input type="radio" name="sexo" id="sexo-h" value="h" /> <label for="sexo-h">hombre</label> <input type="radio" name="sexo" id="sexo-m" value="m" /> <label for="sexo-m">mujer</label>
+					</p>
+					<p>
+					<label>E-mail:*</label>
+					<input type="text" name="e-mail">
+					</p>
+					<p>
+					<label for="poblacion">Población:</label>
+						<select name="poblacion" id="poblacion">
+							<option>Alicante</option>
+							<option>Madrid</option>
+							<option>Sevilla</option>
+							<option>Valencia</option>
+						</select> 
+					</p>
+					<p>
+					<label>Teléfono/móvil de contacto*</label>
+					<input type="text" name="telefono">
+					</p>
+					<p>
+					<label for="descripcion">Asunto:</label>
+					<textarea name="asunto" id="asunto" rows="6" cols="60">
+					</textarea>
+					</p>
+					<p>
+					<input type="submit" value="Enviar" />
+					<input type="reset" value="Borrar">
+					</p>
+				</form>
+		</fieldset>
+		
+	
+	</body>
+</html>
